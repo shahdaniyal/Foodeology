@@ -208,9 +208,9 @@ body {
 .mainbar {
     display: flex;
     background-color: rgba(255, 255, 255, 255);
-    width: 59%;
-    height: 20%;
-    position: absolute;
+    width: 57.7%;
+    height: 140px;
+    position: relative;
     border-top-right-radius: 15px;
     flex-wrap: wrap;
     border-bottom-right-radius: 30px;
@@ -245,7 +245,7 @@ body {
     border-radius: 25px;
     margin-left: 3%;
     font-size: 11px;
-    margin-top: 0%;
+    margin-top: -3%;
     margin-bottom: 0%;
 }
 
@@ -256,18 +256,18 @@ body {
 .centercontainer {
     display: flex;
     background-color: #f2f7fb;
-    width: 59%;
+    width: 57%;
     height: 80%;
     position: absolute;
     display: block;
     margin-left: 18%;
-    margin-top: 10%;
+    margin-top: 144px;
 }
 
 .cards {
     background-color: rgba(255, 255, 255, 255);
     height: 280px;
-    width: 280px;
+    width: 271px;
     margin-left: 2%;
     margin-top: 2%;
     float: left;
@@ -376,12 +376,78 @@ body {
 }
 
 .rightcontainer {
-    display: flex;
     background-color: rgba(255, 255, 255, 255);
-    width: 20%;
-    height: 80%;
+    width: 22%;
+    height: 100%;
     border-radius: 15px 15px 15px 15px;
     position: absolute;
     margin-top: 1%;
-    margin-left: 78.2%;
+    margin-left: 76.2%;
+}
+
+.day-time {
+    display: flex;
+    width: 57%;
+    margin-top: 5%;
+    justify-content: flex-end;
+    color: #bcbcbc;
+    font-size: 13px;
+}
+
+.orderbill {
+    margin-left: 5%;
+    margin-top: 4%;
+    width: 35%;
+    float: left;
+}
+
+hr {
+    border: 1px solid #f2f7fb;
+}
+
+.righttile {
+    height: 10%;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+    border: none;
+    background-color: #f2f7fb;
+    border-radius: 20px;
+}
+
+.rightimg {
+    width: 22%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    float: left;
+    display: block;
+}
+
+.rightimgname {
+    float: left;
+    display: flex;
+}
+
+.aligntxt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.no {
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 16px;
+    height: 23px;
+    justify-content: flex-end;
+}
+
+.quantity {
+    border: none;
+    color: white;
+    display: block;
+    float: left;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #ffbb2e;
 }
