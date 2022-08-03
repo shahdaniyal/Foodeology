@@ -205,7 +205,7 @@ body {
     color: #f2f7fb;
     border-radius: 10px 10px 10px 10px;
     height: 4%;
-    margin-top: -17%;
+    margin-top: -18%;
     position: absolute;
     width: 44%;
     margin-bottom: 1%;
@@ -533,7 +533,6 @@ hr {
 }
 
 .dash {
-    border: none;
     border-top: 2px dashed #1a1919;
     height: 1px;
     margin-left: 5%;
