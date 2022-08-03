@@ -279,6 +279,7 @@ body {
 .pizza-border {
     border: 1px solid #ff6565 !important;
     background-color: white;
+    color: #ff6565;
 }
 
 .centercontainer {
@@ -630,4 +631,15 @@ hr {
     font-size: 14px;
     font-weight: lighter;
     padding: 6px 0px;
+}
+
+.img-circle-div {
+    width: 90px;
+    height: 86px;
+    border-radius: 50%;
+    background-image: url(profile.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -6%;
+    left: 32%;
 }
