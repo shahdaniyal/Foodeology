@@ -160,8 +160,7 @@ body {
     float: left;
     cursor: pointer;
     align-content: center;
-    margin-left: 15%;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     border-radius: 15px 15px 15px 15px;
     background-color: #f2f7fb;
 }
@@ -207,8 +206,16 @@ body {
     height: 4%;
     margin-top: -18%;
     position: absolute;
+    cursor: pointer;
     width: 44%;
     margin-bottom: 1%;
+}
+
+.left-small-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 4% 12%;
+    flex-wrap: wrap;
 }
 
 .maincontainer {
@@ -219,13 +226,24 @@ body {
     display: flex;
     background-color: rgba(255, 255, 255, 255);
     width: 57.7%;
-    height: 140px;
+    height: 120px;
     position: relative;
     border-top-right-radius: 15px;
     flex-wrap: wrap;
-    border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 15px;
     margin-top: 1%;
     margin-left: 18%;
+}
+
+.catalog {
+    display: inline-flex;
+    width: 100%;
+    height: 10%;
+}
+
+.catalog1 {
+    display: inline-flex;
+    width: 100%;
 }
 
 .category {
@@ -254,25 +272,26 @@ body {
 
 .view-all {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 70%;
+    margin-left: 67%;
     font-size: 13px;
 }
 
 .all-items {
     border: none;
     background-color: #f2f7fb;
-    height: 30%;
+    height: 70%;
     float: left;
     color: black;
     font-weight: 550;
     display: flex;
     align-items: center;
+    cursor: pointer;
     justify-content: space-evenly;
     width: 15%;
     border-radius: 25px;
     margin-left: 4%;
     font-size: 11px;
-    margin-top: -3%;
+    margin-top: 0%;
     margin-bottom: 0%;
 }
 
@@ -284,13 +303,13 @@ body {
 
 .centercontainer {
     display: flex;
+    flex-wrap: wrap;
     background-color: #f2f7fb;
     width: 57%;
     height: 80%;
     position: absolute;
-    display: block;
     margin-left: 18%;
-    margin-top: 144px;
+    margin-top: 137px;
 }
 
 .cards {
@@ -299,7 +318,6 @@ body {
     width: 271px;
     margin-left: 2%;
     margin-top: 2%;
-    float: left;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -333,6 +351,7 @@ body {
 .pizza-dsizes {
     background-color: #ff6565;
     border: none;
+    cursor: pointer;
     color: #f2f7fb;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -342,6 +361,7 @@ body {
     background-color: #f2f7fb;
     border: none;
     color: #bcbcbc;
+    cursor: pointer;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -351,12 +371,14 @@ body {
     border-top: none;
     border-bottom: none;
     color: #bcbcbc;
+    cursor: pointer;
     background-color: #f2f7fb;
 }
 
 .pizza-lsizes {
     border: none;
     background-color: #f2f7fb;
+    cursor: pointer;
     color: #bcbcbc;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -488,6 +510,7 @@ hr {
     display: block;
     float: left;
     font-size: 15px;
+    cursor: pointer;
     border-radius: 15px;
     background-color: #ffbb2e;
 }
@@ -561,24 +584,22 @@ hr {
     margin-left: 6%;
     margin-top: inherit;
     float: left;
+    padding: 2% 0%;
 }
 
 .right-flex-cards {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: -2%;
     width: 100%;
 }
 
 .rightsmallcards {
     height: 70px;
-    width: 70px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 10%;
+    margin-top: 5%;
     border-radius: 15px 15px 15px 15px;
 }
 
@@ -588,8 +609,9 @@ hr {
     background-color: #ffffff;
     font-size: 26px;
     display: block;
-    width: 120%;
-    padding: 28%;
+    width: 90px;
+    padding: 22%;
+    cursor: pointer;
     height: 92%;
     border-radius: 15px;
 }
@@ -607,6 +629,7 @@ hr {
     padding: 12px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
     width: 85%;
     margin-left: 8%;
     margin-top: 15%;
@@ -616,12 +639,14 @@ hr {
     text-align: center;
     padding: 6px 0px;
     font-size: 14px;
+    width: 100%;
     font-weight: lighter;
 }
 
 .debit-card {
     text-align: center;
     font-size: 14px;
+    width: 100%;
     padding: 6px 0px;
     font-weight: lighter;
 }
@@ -630,6 +655,7 @@ hr {
     text-align: center;
     font-size: 14px;
     font-weight: lighter;
+    width: 100%;
     padding: 6px 0px;
 }
 
@@ -642,4 +668,134 @@ hr {
     position: absolute;
     top: -6%;
     left: 32%;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .name {
+        float: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        left: 0%;
+    }
+    .orderno {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: right;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+    .wrap {
+        width: 55%;
+        position: relative;
+        top: 70%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    /* For mobile phones: */
+    .name {
+        float: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        left: 2%;
+    }
+    .orderno {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: right;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+    .wrap {
+        width: 55%;
+        position: relative;
+        top: 70%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    /* For mobile phones: */
+    .name {
+        float: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        left: 0%;
+    }
+    .orderno {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: right;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+    .wrap {
+        width: 55%;
+        position: relative;
+        top: 70%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+    }
+    .img-circle-div {
+        width: 65px;
+        height: 61px;
+        border-radius: 50%;
+        background-image: url(profile.jpg);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -6%;
+        left: 18%;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    /* For mobile phones: */
+    .name {
+        float: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        left: 2%;
+    }
+    .orderno {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: right;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+    .wrap {
+        width: 55%;
+        position: relative;
+        top: 70%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+    }
+    .img-circle-div {
+        width: 65px;
+        height: 61px;
+        border-radius: 50%;
+        background-image: url(profile.jpg);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -6%;
+        left: 0%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    /* For mobile phones: */
+    .img-circle-div {
+        width: 64px;
+        height: 60px;
+        border-radius: 50%;
+        background-image: url(profile.jpg);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -6%;
+        left: 30%;
+    }
 }
