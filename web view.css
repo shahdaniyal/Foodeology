@@ -301,6 +301,15 @@ body {
     color: #ff6565;
 }
 
+.pizza-number {
+    background-color: #ff6565;
+    color: rgb(252, 249, 249);
+    border-radius: 15px;
+    width: 25px;
+    position: absolute;
+    margin-top: 57px;
+}
+
 .centercontainer {
     display: flex;
     flex-wrap: wrap;
