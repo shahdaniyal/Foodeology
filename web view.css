@@ -181,18 +181,24 @@ body {
     margin-right: auto;
 }
 
+.foodcook {
+    display: flex;
+    flex-direction: column;
+}
+
 .cook {
-    height: 130px;
+    height: 140px;
     width: 58%;
     margin-left: 15%;
-    margin-top: -7%;
+    margin-top: -73%;
     margin-bottom: -30%;
 }
 
 .display {
     background-color: #ffeeee;
     border-radius: 15px;
-    height: 145px;
+    height: 150px;
+    margin-top: 12%;
     width: 68%;
     margin-left: 14%;
 }
@@ -203,8 +209,8 @@ body {
     background-color: black;
     color: #f2f7fb;
     border-radius: 10px 10px 10px 10px;
-    height: 4%;
-    margin-top: -18%;
+    height: 30px;
+    margin-top: 50%;
     position: absolute;
     cursor: pointer;
     width: 44%;
@@ -226,24 +232,27 @@ body {
     display: flex;
     background-color: rgba(255, 255, 255, 255);
     width: 57.7%;
+    flex-direction: column;
     height: 120px;
     position: relative;
     border-top-right-radius: 15px;
     flex-wrap: wrap;
     border-bottom-right-radius: 15px;
     margin-top: 1%;
-    margin-left: 18%;
+    margin-left: 18.1%;
 }
 
 .catalog {
     display: inline-flex;
     width: 100%;
-    height: 10%;
+    height: 28%;
 }
 
 .catalog1 {
     display: inline-flex;
     width: 100%;
+    margin-top: 3%;
+    height: 40%;
 }
 
 .category {
@@ -279,7 +288,7 @@ body {
 .all-items {
     border: none;
     background-color: #f2f7fb;
-    height: 70%;
+    height: 100%;
     float: left;
     color: black;
     font-weight: 550;
@@ -314,7 +323,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #f2f7fb;
-    width: 57%;
+    width: 58%;
     height: 80%;
     position: absolute;
     margin-left: 18%;
@@ -443,6 +452,8 @@ body {
 .rightcontainer {
     background-color: rgba(255, 255, 255, 255);
     width: 22%;
+    display: flex;
+    flex-direction: column;
     height: 97%;
     border-radius: 15px 15px 15px 15px;
     position: absolute;
@@ -451,23 +462,22 @@ body {
 }
 
 .day-time {
-    display: flex;
-    width: 57%;
-    margin-top: 5%;
-    justify-content: flex-end;
     color: #bcbcbc;
     font-size: 13px;
+    margin-left: 10%;
 }
 
 .orderbill {
-    margin-left: 5%;
     margin-top: 4%;
-    width: 35%;
-    float: left;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-around;
 }
 
 hr {
     border: 1px solid #f2f7fb;
+    width: 100%;
+    margin-top: 3%;
 }
 
 .righttile {
@@ -518,6 +528,7 @@ hr {
     color: white;
     display: block;
     float: left;
+    width: 20px;
     font-size: 15px;
     cursor: pointer;
     border-radius: 15px;
@@ -568,8 +579,8 @@ hr {
 .dash {
     border-top: 2px dashed #1a1919;
     height: 1px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 6%;
+    width: 88%;
 }
 
 .total {
@@ -604,7 +615,7 @@ hr {
 }
 
 .rightsmallcards {
-    height: 70px;
+    height: 95px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -619,7 +630,6 @@ hr {
     font-size: 26px;
     display: block;
     width: 90px;
-    padding: 22%;
     cursor: pointer;
     height: 92%;
     border-radius: 15px;
@@ -641,7 +651,7 @@ hr {
     cursor: pointer;
     width: 85%;
     margin-left: 8%;
-    margin-top: 15%;
+    margin-top: 12%;
 }
 
 .cash {
@@ -806,5 +816,18 @@ hr {
         position: absolute;
         top: -6%;
         left: 30%;
+    }
+}
+
+@media only screen and (max-width: 544px) {
+    /* For mobile phones: */
+    .searchTerm {
+        display: none;
+    }
+    .orderno {
+        display: none;
+    }
+    .opentime {
+        display: none;
     }
 }
